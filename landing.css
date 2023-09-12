@@ -1,0 +1,111 @@
+body{
+    background-image: url(img/mac.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+}
+
+/* Left part of the screen */
+.left-col{
+    margin-top: 12em;
+    margin-left: 5em;
+}
+
+.catchy{
+    color: rgb(255, 255, 255);
+}
+
+.p{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Right part of the screen */
+.right-col{
+    margin: 9em 5em 0 2em;
+    
+}
+
+.header{
+    background-color: rgb(158, 255, 158);
+    border-radius: 5px;
+    text-align: center;
+    padding: .23px;
+    margin-bottom: 5%;
+}
+
+.form-guide{
+    background-color: rgb(212, 245, 245);
+    border-radius: 5px;
+    width: 400px;
+}
+
+input[type="text"]{
+    padding: 9px;
+    border-radius: 5px;
+    width: 360px;
+    margin: 4%;
+    box-sizing: border-box;
+}
+
+input[type="text"]{
+    padding: 9px;
+    border-radius: 5px;
+    width: 360px;
+    margin: 4%;
+    box-sizing: border-box;
+    border-style: outset;
+}
+
+input[type="email"]{
+    padding: 9px;
+    border-radius: 5px;
+    width: 360px;
+    margin: 4%;
+    box-sizing: border-box;
+    border-style: outset;
+}
+
+input[type="password"]{
+    padding: 9px;
+    border-radius: 5px;
+    width: 360px;
+    margin: 4%;
+    box-sizing: border-box;
+    border-style: outset;
+}
+
+input[type="button"]{
+    text-transform: uppercase;
+    color: azure;
+    cursor: pointer;
+    padding: 9px;
+    border-radius: 5px;
+    width: 250px;
+    margin: 4%;
+    margin-left: 18%;
+    box-sizing: border-box;
+    background: linear-gradient(to right, blue, coral);
+    letter-spacing: .2em;
+    border: none;
+}
+
+/* unvisited link */
+a:link {
+    color:rgb(108, 48, 238);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+}
